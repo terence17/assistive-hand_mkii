@@ -1,0 +1,105 @@
+.results-container {
+    max-width: 95%;
+    margin: 100px auto 20px auto; 
+    text-align: center;
+    position: relative; 
+}
+
+
+.results-title {
+    color: rgb(62, 62, 62);
+    font-size: 24px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+
+.results-table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.results-table th {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+
+.results-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+
+.results-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.results-table tr:nth-child(odd) {
+    background-color: #f4f4dc;
+}
+
+
+.results-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+
+
+@media (max-width: 100%) {
+    .results-table {
+        font-size: 14px;
+    }
+
+    .results-title {
+        font-size: 20px;
+    }
+}
+
+.matchweek-links {
+    margin-bottom: 10px;
+  }
+  
+  .matchweek-btn {
+    margin: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #ccc;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .matchweek-btn:hover {
+    background-color: #aaa;
+  }
+  
+  .matchweek-btn.active {
+    background-color: red;
+    color: white;
+  }
+
+  .exit-btn {
+    background: linear-gradient(90deg, #e30613, #b20510); 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .exit-btn:hover {
+    background: linear-gradient(90deg, #b20510, #e30613); 
+    transform: scale(1.05);
+  }

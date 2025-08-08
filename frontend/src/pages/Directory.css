@@ -1,0 +1,53 @@
+.seasons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Left align */
+    justify-content: flex-start;
+    margin-top: 80px; /* Adjust based on navbar height */
+    padding-left: 20px; /* Adds space from the left */
+    width: 100%;
+    min-height: calc(100vh - 80px); /* Full height minus navbar */
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .season-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .season-link {
+    display: block;
+    width: 200px;
+    text-align: left; /* Align text to the left */
+    background-color: white;
+    color: black;
+    padding: 12px 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  /* Gradient highlight on hover */
+  .season-link:hover {
+    background: linear-gradient(90deg, red, darkred);
+    color: white;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .season-link {
+      width: 80%;
+    }
+  }
+  
